@@ -75,7 +75,7 @@ function draw() {
 
   if (showSecondText) {
     textSize(96);
-    text("Theres so\nmuch more I\ncould be doing\nright now", width / 20, height / 1.7);
+    text("There's so\nmuch more I\ncould be doing\nright now", width / 20, height / 1.7);
   }
 }
 

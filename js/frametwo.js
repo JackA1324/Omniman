@@ -81,7 +81,7 @@ function draw() {
   if (showSecondText) {
     textSize(64);
 
-    text("When he feels Joy,\nwe feel joy" , width / 1.8, height / 1.2);
+    text("When he feels joy,\nwe feel joy" , width / 1.8, height / 1.2);
   }
 
 }

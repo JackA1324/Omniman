@@ -72,7 +72,7 @@ function draw() {
   //found this fun dot function from a p5 example
   let dots = "...".substring(3 - floor(frameCount/20) % 4);
   text("DID YOU SEE!?", width / 25, height / 9);
-  text("he's ours", width / 25, height / 4);
+
 
   //trigger second text & show zoom effect when mouse enters the top right area
   if (isMouseInTopLeft) {

@@ -75,7 +75,7 @@ function draw() {
 
   if (showSecondText) {
     textSize(96);
-    text("I want to\nbejust like you", width / 20, height / 1.2);
+    text("I want to\nbe just like you", width / 20, height / 1.2);
   }
 }
 

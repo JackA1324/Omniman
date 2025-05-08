@@ -66,7 +66,7 @@ function draw() {
   stroke(0);
   strokeWeight(4);
   textSize(64);
-  text("hes never\ngetting his\npowers is\nhe?", width / 1.35, height / 9);
+  text("he's never\ngetting his\npowers is\nhe?", width / 1.35, height / 9);
 
   //trigger second text & show zoom effect when mouse enters the top right area
   if (!showSecondText && isMouseInTopRight) {
@@ -76,7 +76,7 @@ function draw() {
   if (showSecondText) {
     textSize(64);
     let dots = "...".substring(3 - floor(frameCount/20) % 4);
-    text("Even if he doesnt,\nwell love him the\nsame" + dots, width / 20, height / 1.3);
+    text("Even if he doesn't,\nwell love him the\nsame" + dots, width / 20, height / 1.3);
   }
 }
 

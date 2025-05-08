@@ -76,7 +76,7 @@ function draw() {
   if (showSecondText) {
     textSize(64);
     let dots = "...".substring(3 - floor(frameCount/20) % 4);
-    text("If I dont\nget my powers" + dots, width / 20, height / 1.2);
+    text("If I don't\nget my powers" + dots, width / 20, height / 1.2);
   }
 }
 
